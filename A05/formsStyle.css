@@ -1,0 +1,73 @@
+html {
+	width:100%;
+	height:100%;
+}
+body {
+	width:100%;
+	height:100%;
+}
+
+/*Head 1/4th of page height*/
+#head {
+	border:1px solid black;
+	border-style:solid;
+	border-width:thin medium thick;
+	border-color:#20B2AA;
+	text-align: center;
+	color:white;
+	height:25%;
+	width:99%;
+	background-color:#6495ED;
+	
+}
+/*navigation bar 50 pixels high*/
+#navbar {
+	border:1px solid black;
+	border-style:solid;
+	border-width:thin medium thick;
+	border-color:#20B2AA;
+	height:50px;
+	width:99%;
+	background-color:#A7C942;
+	text-align:center;
+}
+#middlebody {
+	width:100%;
+	height:70%;
+}
+/*side bar 1/4th of page width*/
+#sidebar {
+	border:1px solid black;
+	border-style:solid;
+	border-width:thin medium thick;
+	border-color:#20B2AA;
+	width:25%;
+	height: 99%;
+	float:left;
+	background-image:url('clouds.jpg');
+	color:#483D8B;
+}
+#mainpage {
+	border:1px solid black;
+	border-style:solid;
+	border-width:thin medium thick;
+	border-color:#20B2AA;
+	width:73.7%;
+	height: 99%;
+	float:left;
+	background-image:url('clouds.jpg');
+	color:#483D8B;
+}
+/*Footer 50 pixels high*/
+#foot {
+	border:1px solid black;
+	border-style:solid;
+	border-width:thin medium thick;
+	border-color:#20B2AA;
+	background-color:#6495ED;
+	height:50px;
+	width:99%;
+	position:relative;
+	color:white;
+	text-align: center;
+}

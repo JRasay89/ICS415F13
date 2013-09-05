@@ -1,0 +1,61 @@
+html {
+	width:100%;
+	height:100%;
+}
+body {
+	width:100%;
+	height:100%;
+}
+#container {
+	width:100%;
+	height:100%;
+}
+#tableheader th, #navbar td, #sidebar,#mainpage,#footer {
+	border:1px solid black;
+	border-style:solid;
+	border-width:thin medium thick;
+	border-color:#20B2AA;
+}
+/*Header 1/4th of the page height.*/
+#tableheader th {
+	height:25%;
+	background-color:#6495ED;
+}
+#webheader {
+	color:white;
+	text-align: center;
+}
+/*Navigation Bar 50 pixels high*/
+#navbar {
+	height:50px;
+	background-color:#A7C942;
+	text-align:center;
+}
+/*Sidebar 1/4th of the page width.*/
+#sidebar {
+	width:25%;
+	background-image:url('clouds.jpg');
+	vertical-align:top;
+    color:#483D8B;
+}
+#mainpage {
+	background-image:url('clouds.jpg');
+	vertical-align:top;
+	color:#483D8B;
+}
+#mainpage h2 {
+	text-align:center;
+}
+
+/*Footer 50 pixels high*/
+#footer {
+	background-color:#6495ED;
+	height:50px;
+	color:white;
+	text-align: center;
+}
+#innertable, #innertable td, #innertable th {
+	border:1px solid black;
+	border-style:solid;
+	border-width:small;
+}
