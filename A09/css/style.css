@@ -1,0 +1,71 @@
+/*****************************************************************************************************************
+								Media Queries
+******************************************************************************************************************/
+/************************************************************************************
+smaller than 980
+*************************************************************************************/
+@media screen and (max-width: 980px) {
+	.col-sm-4 {
+		width:100%;
+	}
+	/* embedded videos */
+	.video embed,
+	.video object,
+	.video iframe {
+		width: 100%;
+		height: auto;
+		min-height: 300px;
+	}
+}
+
+/************************************************************************************
+smaller than 650
+*************************************************************************************/
+@media screen and (max-width: 650px) {
+	/* embedded videos */
+	.video embed,
+	.video object,
+	.video iframe {
+		min-height: 250px;
+	}
+
+}
+
+/**********************************************************************************
+Main Content
+***********************************************************************************/
+/*Body Image*/
+body {
+	background: #0d1424 url(../images/body-bg.jpg) no-repeat center top;
+}
+
+/* site description */
+#site-description {
+	font: italic 100%/130% "Times New Roman", Times, serif;
+	color: #fff;
+	top: 55px;
+}
+/*Site Logo*/
+#site-logo a {
+	font: bold 30px/100% Arial, Helvetica, sans-serif;
+	color: #fff;
+	text-decoration: none;
+}
+/* flickr widget */
+.flickr_badge_image
+{
+	margin-right: 5px;
+	margin-bottom: 5px;
+	float: left;
+}
+/************************************************************************************
+FOOTER
+*************************************************************************************/
+#footer {
+	clear: both;
+	color: #ccc;
+	font-size: 85%;
+}
+#footer a {
+	color: #fff;
+}
