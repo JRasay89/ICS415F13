@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ICS 415 Assignment 10</title>
+	</head>
+	<body>
+		<h1 class="foo bar dog" onclick="getClasses(this)">Get Classes Demo Click Me! Alert OFF</h1><br>
+		<h2 onclick="addClass(this,'hi')">Add Classes Demo Click Me! Alert OFF</h2><br>
+		<h3>Form Validation Example:</h3>
+		<form name="myForm" action="index.html" onsubmit="return validateForm()" method="post">
+			User name: <input type="text" name="name"><br/>
+			Email: <input type="email" name="email"><br/>
+			Password: <input type="password" name="password"><br/>
+			Confirm Password: <input type="password" name="confirm"><br/>
+			<input type="submit" value="Submit">
+		</form>
+		<script src="myScript.js"></script>
+	</body>
+</html>
