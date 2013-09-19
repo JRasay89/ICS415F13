@@ -1,7 +1,7 @@
 $(document).ready(function () {
 	//Initially Hides the answers
-	$('.faq dd').hide();
-	//When Click show or hide the answers
+	$('dd').hide();
+	//When Click, show or hide the answers
 	$("dt").click(function() {
 		$(this).next().slideToggle();
 		

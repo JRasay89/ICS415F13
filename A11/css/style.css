@@ -1,18 +1,16 @@
-div{
+div {
     background:CornflowerBlue;
-    margin:70px;
+    margin:100px;
     border:1px solid;
 }
-dt{
-       color: blue;
-       font-weight: bold;
-       cursor: pointer;
-       margin: 0 0 1em 0;
-       padding: 0 0 0 20px;
-       line-height: 16px;
+dt {
+    color: blue;
+    font-weight: bold;
+    margin: 20px 10px 10px 5px;
+    padding: 0 0 0 20px;
+    line-height: 25px;
+	cursor: pointer;
 }
-p,dl{
-	font-size:1.2em;
-	line-height:170%;
-	margin-bottom:20px
+h1 {
+	text-align: center;
 }
