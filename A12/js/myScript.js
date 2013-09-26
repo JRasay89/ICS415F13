@@ -157,15 +157,15 @@ $(document).ready(function(){
 		$.get(url, function(data) {
 			var response = $('<div/>').append(data);//Puts bodys content into a container for length
 			
-			var $tag = response.find('script');
+			var tag = response.find('script');
 			var count = response.find('script').length;
 			var headtext = $("<h1>External Java Scripts</h1>");
 			$(".container").append(headtext);
 			
 			if (count > 0) { //If There Are Scripts Print them
 				for (var i = 0; i < count; i++) {
-					if ($($tag[i]).attr('src') != ' ') {
-						$(".container").append((i+1)+": ",$($tag[i]).attr('src'),"<br>");
+					if ($(tag[i]).attr('src') != ' ') {
+						$(".container").append((i+1)+": ",$(tag[i]).attr('src'),"<br>");
 					}
 				}
 			}
