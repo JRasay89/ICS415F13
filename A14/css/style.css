@@ -1,0 +1,12 @@
+#title, h2 {
+	text-align: center;
+}
+
+.comments {
+	border:2px solid #a1a1a1;
+	margin-top: 20px;
+	padding:5px 20px; 
+	background:#dddddd;
+	width:350px;
+	border-radius:25px;
+}
