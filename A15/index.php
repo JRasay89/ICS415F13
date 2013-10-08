@@ -65,6 +65,7 @@
 				}
 			}
 
+			//Save user name to the user table if name does not already exist, user name is not case sensitive
 			if (!empty($_POST['user'])) {
 				$name = $_POST['user'];
 				mysqli_query($con,"INSERT INTO Users (name)
@@ -128,8 +129,8 @@
 					}
 				}
 
-				//Print and write comments to file, Creats new file if file doesn't exist.
-				//if comment is whitespace don't print or write.
+				//Print and save comments to the database.
+				//if comment is whitespace don't print or save to database.
 				if (trim($comment) != "") {
 					echo "<li>".$comment."</li>";
 					mysqli_query($con,"INSERT INTO Comments (Comments, userID) 
